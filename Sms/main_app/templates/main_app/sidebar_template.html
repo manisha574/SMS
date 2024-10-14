@@ -34,6 +34,7 @@
                         </p>
                     </a>
                 </li>
+
                 <li class="nav-item">
                     {% url 'admin_view_profile' as admin_view_profile %}
                     <a href="{{admin_view_profile}}"
@@ -495,4 +496,54 @@
                                 <!-- /.sidebar-menu -->
                             </div>
                             <!-- /.sidebar -->
+                            <style>
+                                .main-sidebar {
+                                    background-color: #3498db;
+                                }
+
+                                .sidebar .nav-sidebar .nav-item .nav-link {
+                                    color: #fff;
+                                }
+
+                                .sidebar .nav-sidebar .nav-item .nav-link:hover {
+                                    color: #ccc;
+                                }
+
+                                .sidebar .nav-sidebar .nav-item .nav-link.active {
+                                    background-color: #1a2226;
+                                }
+
+                                .brand-link {
+                                    background-color: #2c3e50;
+                                }
+
+                                .brand-link .brand-image {
+                                    margin-left: 10px;
+                                }
+
+                                .brand-link .brand-text {
+                                    font-size: 20px;
+                                    margin-left: 20px;
+                                }
+
+                                .user-panel {
+                                    background-color: #f9f9f9;
+                                    padding: 20px;
+                                    border-bottom: 1px solid #ddd;
+                                }
+
+                                .user-panel .image {
+                                    margin-right: 20px;
+                                }
+
+                                .user-panel .info {
+                                    font-size: 18px;
+                                    font-weight: bold;
+                                }
+
+                                .nav-sidebar .nav-item .nav-link i {
+                                    font-size: 20px;
+                                    margin-right: 10px;
+                                }
+                            </style>
 </aside>

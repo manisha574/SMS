@@ -29,6 +29,168 @@
     <link rel="stylesheet" href="{% static 'plugins/summernote/summernote-bs4.css'%} ">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    .main-header {
+    background-color: #3498db;
+    }
+
+    .main-header .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    }
+
+    .main-header .navbar-nav .nav-item .nav-link:hover {
+    color: #ccc;
+    }
+
+    .main-sidebar {
+    background-color: #2c3e50;
+    }
+
+    .main-sidebar .nav-sidebar .nav-item .nav-link {
+    color: #fff;
+    }
+
+    .main-sidebar .nav-sidebar .nav-item .nav-link:hover {
+    color: #ccc;
+    }
+
+    .main-sidebar .nav-sidebar .nav-item .nav-link.active {
+    background-color: #1a2226;
+    }
+
+    .content-header {
+    background-color: #f9f9f9;
+    }
+
+    .content-header .breadcrumb {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .content-header .breadcrumb a {
+    color: #337ab7;
+    }
+
+    .content-header .breadcrumb a:hover {
+    color: #23527c;
+    }
+
+    .small-box {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .small-box .inner {
+    padding: 20px;
+    }
+
+    .small-box .icon {
+    font-size: 60px;
+    margin-top: 20px;
+    }
+
+    .small-box .icon i {
+    color: #fff;
+    }
+
+    .small-box .icon-big {
+    font-size: 80px;
+    margin-top: 20px;
+    }
+
+    .small-box .icon-big i {
+    color: #fff;
+    }
+
+    .small-box .small-box-footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    }
+
+    .small-box .small-box-footer a {
+    color: #337ab7;
+    }
+
+    .small-box .small-box-footer a:hover {
+    color: #23527c;
+    }
+
+    .direct-chat {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .direct-chat .direct-chat-messages {
+    padding: 20px;
+    }
+
+    .direct-chat .direct-chat-msg {
+    margin-bottom: 20px;
+    }
+
+    .direct-chat .direct-chat-msg .direct-chat-infos {
+    margin-bottom: 10px;
+    }
+
+    .direct-chat .direct-chat-msg .direct-chat-text {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    }
+
+    .direct-chat .direct-chat-msg .direct-chat-text a {
+    color: #337ab7;
+    }
+
+    .direct-chat .direct-chat-msg .direct-chat-text a:hover {
+    color: #23527c;
+    }
+
+    .todo-list {
+    padding: 20px;
+    }
+
+    .todo-list li {
+    margin-bottom: 20px;
+    }
+
+    .todo-list li .handle {
+    margin-right: 10px;
+    }
+
+    .todo-list li .icheck-primary {
+    margin-right: 10px;
+    }
+
+    .todo-list li .text {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    }
+
+    .todo-list li .text a {
+    color: #337ab7;
+    }
+
+    .todo-list li .text a:hover {
+    color: #23527c;
+    }
+
+    .todo-list li .tools {
+    margin-left: 10px;
+    }
+
+    .todo-list li .tools a {
+    color: #337ab7;
+    }
+
+    .todo-list li .tools a:hover {
+    color: #23527c;
+    }
+    </style>
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -820,8 +982,8 @@
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">{{page_title}}</h3>
-                                        <i class="fas fa-chart-pie mr-1"></i>
-                                        Sales
+                                    <i class="fas fa-chart-pie mr-1"></i>
+                                    Sales
                                     </h3>
                                     <div class="card-tools">
                                         <ul class="nav nav-pills ml-auto">
@@ -1083,8 +1245,8 @@
                             <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">{{page_title}}</h3>
-                                        <i class="ion ion-clipboard mr-1"></i>
-                                        To Do List
+                                    <i class="ion ion-clipboard mr-1"></i>
+                                    To Do List
                                     </h3>
 
                                     <div class="card-tools">
@@ -1224,8 +1386,8 @@
                             <div class="card bg-gradient-primary">
                                 <div class="card-header border-0">
                                     <h3 class="card-title">{{page_title}}</h3>
-                                        <i class="fas fa-map-marker-alt mr-1"></i>
-                                        Visitors
+                                    <i class="fas fa-map-marker-alt mr-1"></i>
+                                    Visitors
                                     </h3>
                                     <!-- card tools -->
                                     <div class="card-tools">
@@ -1271,8 +1433,8 @@
                             <div class="card bg-gradient-info">
                                 <div class="card-header border-0">
                                     <h3 class="card-title">{{page_title}}</h3>
-                                        <i class="fas fa-th mr-1"></i>
-                                        Sales Graph
+                                    <i class="fas fa-th mr-1"></i>
+                                    Sales Graph
                                     </h3>
 
                                     <div class="card-tools">
@@ -1324,8 +1486,8 @@
                                 <div class="card-header border-0">
 
                                     <h3 class="card-title">{{page_title}}</h3>
-                                        <i class="far fa-calendar-alt"></i>
-                                        Calendar
+                                    <i class="far fa-calendar-alt"></i>
+                                    Calendar
                                     </h3>
                                     <!-- tools card -->
                                     <div class="card-tools">
